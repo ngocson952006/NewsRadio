@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="16dp"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp"
+    android:paddingTop="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewSharedFeedImage"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:src="@android:drawable/ic_menu_share" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp">
+
+        <TextView
+            android:id="@+id/textViewSharedFeedTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title ......"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewSharedUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shared by : user_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textViewShareTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shared time : time"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textSize="13sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_gravity="end"
+            android:id="@+id/textViewVotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vote : 13"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

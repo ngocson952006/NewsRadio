@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.truongngoc.newsradio.NewsArticleActivity"
+    tools:showIn="@layout/activity_news_article">
+
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp">
+
+        <TextView
+            android:id="@+id/textViewArticleCategory"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="News"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#1A237E"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewArticleTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Android Developer Life"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#3E2723"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:id="@+id/textViewArticleDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="Detail"
+            android:textColor="#3E2723"
+            android:textSize="13sp" />
+
+
+        <TextView
+            android:id="@+id/textViewArticleLearnMoreLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/learn_more"
+            android:textColor="#7CB342"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewArticlePublicTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Time"
+            android:textColor="#FF9800"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

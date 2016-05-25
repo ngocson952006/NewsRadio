@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.truongngoc.newsradio.UserProfileActivity"
+    tools:showIn="@layout/activity_user_profile">
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior" -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewProfileIcon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp" />
+
+            <ImageButton
+                android:id="@+id/imageButtonEditUserIconProfile"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="64dp"
+                android:background="@drawable/camera_icon" />
+
+            <TextView
+                android:id="@+id/textViewProfileUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#212121" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:background="#BDBDBD" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewProfileAddress"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/address_icon" />
+
+            <TextView
+                android:id="@+id/textViewProfileAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:textColor="#212121" />
+
+            <ImageButton
+                android:id="@+id/imageButtonEditUserProfileAddress"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/edit_icon" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:background="#BDBDBD" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewProfilePhone"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/phone_icon" />
+
+            <TextView
+                android:id="@+id/textViewProfilePhoneContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/imageButtonEditUserProfilePhoneContact"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/edit_icon" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:background="#BDBDBD" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewProfileEmailAddress"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/email_icon" />
+
+            <TextView
+                android:id="@+id/textViewProfileEmailAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceListItem"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/imageButtonEditUserEmailAddress"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/edit_icon" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:background="#BDBDBD" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

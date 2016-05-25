@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="refresh_cursor_colors">
+        <item>#1A237E</item>
+        <item>#F57C00</item>
+        <item>#689F38</item>
+        <item>#E91E63</item>
+    </array>
+</resources>

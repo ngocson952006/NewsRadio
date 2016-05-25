@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="share_providers">
+        <item>Share on Facebook</item>
+        <item>Share on NewsRadio forums</item>
+    </array>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_my_profile"
+            android:icon="@drawable/profile_icon"
+            android:title="@string/navigation_my_profile" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/navigation_my_shares"
+                android:icon="@drawable/my_shares"
+                android:title="@string/navigation_my_shares" />
+            <item
+                android:id="@+id/navigation_my_friends"
+                android:icon="@drawable/friends_icon"
+                android:title="@string/navigation_my_friends" />
+        </menu>
+    </item>
+
+</menu>
